@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/d2ndjim/holt-RJS#readme",
   "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1"
   }
 }
