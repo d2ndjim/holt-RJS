@@ -23,6 +23,7 @@ const SearchParams = () => {
   return (
     <div className="my-0 mx-auto w-11/12">
       <form
+        className="mb-10 flex flex-col justify-center items-center rounded-lg bg-gray-200 p-10 shadow-lg"
         onSubmit={(e) => {
           e.preventDefault();
           const formData = new FormData(e.target);
@@ -74,8 +75,7 @@ const SearchParams = () => {
             ))}
           </select>
         </label>
-        ;
-        <button>Submit</button>
+        ;<button>Submit</button>
       </form>
       <Results pets={pets} />
     </div>
